@@ -7,41 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44ADE73516CFCE3B00CF92C6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ADE73416CFCE3B00CF92C6 /* opencv2.framework */; };
 		44D2A43916CF377C008F047B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43816CF377C008F047B /* UIKit.framework */; };
 		44D2A43B16CF377C008F047B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43A16CF377C008F047B /* Foundation.framework */; };
 		44D2A43D16CF377C008F047B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43C16CF377C008F047B /* CoreGraphics.framework */; };
 		44D2A44316CF377C008F047B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D2A44116CF377C008F047B /* InfoPlist.strings */; };
-		44D2A44516CF377C008F047B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A44416CF377C008F047B /* main.m */; };
-		44D2A44916CF377C008F047B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A44816CF377C008F047B /* AppDelegate.m */; };
+		44D2A44516CF377C008F047B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A44416CF377C008F047B /* main.mm */; };
+		44D2A44916CF377C008F047B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A44816CF377C008F047B /* AppDelegate.mm */; };
 		44D2A44B16CF377C008F047B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D2A44A16CF377C008F047B /* Default.png */; };
 		44D2A44D16CF377C008F047B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D2A44C16CF377C008F047B /* Default@2x.png */; };
 		44D2A44F16CF377D008F047B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D2A44E16CF377D008F047B /* Default-568h@2x.png */; };
 		44D2A45216CF377D008F047B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D2A45016CF377D008F047B /* MainStoryboard.storyboard */; };
-		44D2A45516CF377D008F047B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A45416CF377D008F047B /* MasterViewController.m */; };
-		44D2A45816CF377D008F047B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A45716CF377D008F047B /* DetailViewController.m */; };
+		44D2A45516CF377D008F047B /* MasterViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A45416CF377D008F047B /* MasterViewController.mm */; };
+		44D2A45816CF377D008F047B /* DetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44D2A45716CF377D008F047B /* DetailViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44ADE73416CFCE3B00CF92C6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		44D2A43516CF377C008F047B /* OpenCVdyfocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVdyfocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D2A43816CF377C008F047B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44D2A43A16CF377C008F047B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44D2A43C16CF377C008F047B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		44D2A44016CF377C008F047B /* OpenCVdyfocus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVdyfocus-Info.plist"; sourceTree = "<group>"; };
 		44D2A44216CF377C008F047B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44D2A44416CF377C008F047B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44D2A44416CF377C008F047B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		44D2A44616CF377C008F047B /* OpenCVdyfocus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVdyfocus-Prefix.pch"; sourceTree = "<group>"; };
 		44D2A44716CF377C008F047B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44D2A44816CF377C008F047B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44D2A44816CF377C008F047B /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		44D2A44A16CF377C008F047B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		44D2A44C16CF377C008F047B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		44D2A44E16CF377D008F047B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		44D2A45116CF377D008F047B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		44D2A45316CF377D008F047B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		44D2A45416CF377D008F047B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		44D2A45416CF377D008F047B /* MasterViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MasterViewController.mm; sourceTree = "<group>"; };
 		44D2A45616CF377D008F047B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		44D2A45716CF377D008F047B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		44D2A45716CF377D008F047B /* DetailViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DetailViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44ADE73516CFCE3B00CF92C6 /* opencv2.framework in Frameworks */,
 				44D2A43916CF377C008F047B /* UIKit.framework in Frameworks */,
 				44D2A43B16CF377C008F047B /* Foundation.framework in Frameworks */,
 				44D2A43D16CF377C008F047B /* CoreGraphics.framework in Frameworks */,
@@ -79,7 +76,6 @@
 		44D2A43716CF377C008F047B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44ADE73416CFCE3B00CF92C6 /* opencv2.framework */,
 				44D2A43816CF377C008F047B /* UIKit.framework */,
 				44D2A43A16CF377C008F047B /* Foundation.framework */,
 				44D2A43C16CF377C008F047B /* CoreGraphics.framework */,
@@ -91,12 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				44D2A44716CF377C008F047B /* AppDelegate.h */,
-				44D2A44816CF377C008F047B /* AppDelegate.m */,
+				44D2A44816CF377C008F047B /* AppDelegate.mm */,
 				44D2A45016CF377D008F047B /* MainStoryboard.storyboard */,
 				44D2A45316CF377D008F047B /* MasterViewController.h */,
-				44D2A45416CF377D008F047B /* MasterViewController.m */,
+				44D2A45416CF377D008F047B /* MasterViewController.mm */,
 				44D2A45616CF377D008F047B /* DetailViewController.h */,
-				44D2A45716CF377D008F047B /* DetailViewController.m */,
+				44D2A45716CF377D008F047B /* DetailViewController.mm */,
 				44D2A43F16CF377C008F047B /* Supporting Files */,
 			);
 			path = OpenCVdyfocus;
@@ -107,7 +103,7 @@
 			children = (
 				44D2A44016CF377C008F047B /* OpenCVdyfocus-Info.plist */,
 				44D2A44116CF377C008F047B /* InfoPlist.strings */,
-				44D2A44416CF377C008F047B /* main.m */,
+				44D2A44416CF377C008F047B /* main.mm */,
 				44D2A44616CF377C008F047B /* OpenCVdyfocus-Prefix.pch */,
 				44D2A44A16CF377C008F047B /* Default.png */,
 				44D2A44C16CF377C008F047B /* Default@2x.png */,
@@ -182,10 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D2A44516CF377C008F047B /* main.m in Sources */,
-				44D2A44916CF377C008F047B /* AppDelegate.m in Sources */,
-				44D2A45516CF377D008F047B /* MasterViewController.m in Sources */,
-				44D2A45816CF377D008F047B /* DetailViewController.m in Sources */,
+				44D2A44516CF377C008F047B /* main.mm in Sources */,
+				44D2A44916CF377C008F047B /* AppDelegate.mm in Sources */,
+				44D2A45516CF377D008F047B /* MasterViewController.mm in Sources */,
+				44D2A45816CF377D008F047B /* DetailViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +270,19 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVdyfocus/OpenCVdyfocus-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/opencv";
 				INFOPLIST_FILE = "OpenCVdyfocus/OpenCVdyfocus-Info.plist";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/opencv/lib/debug";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lzlib",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_features2d",
+					"-lopencv_imgproc",
+					"-lopencv_video",
+					"-lopencv_core",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,7 +297,19 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVdyfocus/OpenCVdyfocus-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/opencv";
 				INFOPLIST_FILE = "OpenCVdyfocus/OpenCVdyfocus-Info.plist";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/opencv/lib/release";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lopencv_calib3d",
+					"-lzlib",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_features2d",
+					"-lopencv_imgproc",
+					"-lopencv_video",
+					"-lopencv_core",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
