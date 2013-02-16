@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44ADE73516CFCE3B00CF92C6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ADE73416CFCE3B00CF92C6 /* opencv2.framework */; };
 		44D2A43916CF377C008F047B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43816CF377C008F047B /* UIKit.framework */; };
 		44D2A43B16CF377C008F047B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43A16CF377C008F047B /* Foundation.framework */; };
 		44D2A43D16CF377C008F047B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2A43C16CF377C008F047B /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44ADE73416CFCE3B00CF92C6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		44D2A43516CF377C008F047B /* OpenCVdyfocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVdyfocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D2A43816CF377C008F047B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44D2A43A16CF377C008F047B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44ADE73516CFCE3B00CF92C6 /* opencv2.framework in Frameworks */,
 				44D2A43916CF377C008F047B /* UIKit.framework in Frameworks */,
 				44D2A43B16CF377C008F047B /* Foundation.framework in Frameworks */,
 				44D2A43D16CF377C008F047B /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		44D2A43716CF377C008F047B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44ADE73416CFCE3B00CF92C6 /* opencv2.framework */,
 				44D2A43816CF377C008F047B /* UIKit.framework */,
 				44D2A43A16CF377C008F047B /* Foundation.framework */,
 				44D2A43C16CF377C008F047B /* CoreGraphics.framework */,
@@ -264,6 +268,10 @@
 		44D2A45C16CF377D008F047B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVdyfocus/OpenCVdyfocus-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVdyfocus/OpenCVdyfocus-Info.plist";
@@ -275,6 +283,10 @@
 		44D2A45D16CF377D008F047B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVdyfocus/OpenCVdyfocus-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVdyfocus/OpenCVdyfocus-Info.plist";
@@ -302,6 +314,7 @@
 				44D2A45D16CF377D008F047B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
